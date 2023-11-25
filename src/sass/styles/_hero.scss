@@ -26,23 +26,22 @@
   justify-content: flex-end;
   gap: 17px;
 
-  @media (min-width: $tablet) {
-    font-size: 96px;
-  }
-
   & h1 {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     max-width: 583px;
+    @media (min-width: $tablet) {
+      font-size: 96px;
+    }
   }
 }
 
 .icons > ul {
   display: flex;
   flex-direction: row;
-  margin: 15vh 10vw 1vh 1vw;
+  margin: 28vh 0vw 4vh 25vw;
   //margin: 10 5 1 2;
 }
 //

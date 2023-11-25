@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   transition-duration: 250ms;
-  outline: 1px solid red;
 }
 
 html {
@@ -131,11 +130,6 @@ h2 {
   justify-content: flex-end;
   gap: 17px;
 }
-@media (min-width: 768px) {
-  .right {
-    font-size: 96px;
-  }
-}
 .right h1 {
   font-size: 48px;
   font-style: normal;
@@ -143,11 +137,16 @@ h2 {
   line-height: normal;
   max-width: 583px;
 }
+@media (min-width: 768px) {
+  .right h1 {
+    font-size: 96px;
+  }
+}
 
 .icons > ul {
   display: flex;
   flex-direction: row;
-  margin: 15vh 10vw 1vh 1vw;
+  margin: 28vh 0vw 4vh 25vw;
 }
 
 .left {
@@ -171,6 +170,9 @@ h2 {
 .header {
   padding: 10px;
   width: 100%;
+  position: fixed;
+  bottom: 95%;
+  margin-bottom: -10px;
 }
 .header nav {
   width: 100%;
@@ -182,4 +184,30 @@ h2 {
     width: 50%;
     margin-left: auto;
   }
+}
+
+.secondSection {
+  height: 613px;
+  padding-left: 8vw;
+  padding-right: 4vw;
+}
+
+.blockName {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 13vh;
+}
+
+.textSecondSection {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 3vh;
+}
+
+.button {
+  margin: 5vh 41 0 85%;
 }/*# sourceMappingURL=index.css.map */
