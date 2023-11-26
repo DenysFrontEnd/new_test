@@ -105,6 +105,13 @@ h2 {
   line-height: normal;
 }
 
+.blockName {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .hero {
   padding: 0;
   /*width: 100%;
@@ -192,22 +199,57 @@ h2 {
   padding-right: 4vw;
 }
 
-.blockName {
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 13vh;
-}
-
 .textSecondSection {
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 3vh;
+  margin-top: 8vh;
 }
 
-.button {
+.blockNameSecond {
+  margin-top: 13vh;
+}
+
+.buttonSecond {
+  margin: 5vh 41 0 80%;
+}
+
+.blockName {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolioBlock {
+  display: flex;
+}
+
+.blocks1 {
+  margin-top: 336px;
+}
+
+.blocks2 {
+  margin: 213px 50px 0 50px;
+}
+
+.blocks3 {
+  margin-top: 105px;
+}
+
+h3 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.buttonThird {
   margin: 5vh 41 0 85%;
 }/*# sourceMappingURL=index.css.map */
