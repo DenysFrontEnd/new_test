@@ -106,6 +106,7 @@ h2 {
 }
 
 .blockName {
+  display: flex;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -150,10 +151,10 @@ h2 {
   }
 }
 
-.icons > ul {
+.iconsHero > ul {
   display: flex;
   flex-direction: row;
-  margin: 28vh 0vw 4vh 25vw;
+  margin: 35% 0 5% 65%;
 }
 
 .left {
@@ -215,13 +216,12 @@ h2 {
   margin: 5vh 41 0 80%;
 }
 
-.blockName {
-  display: flex;
-  justify-content: center;
-}
-
 .portfolioBlock {
   display: flex;
+}
+
+.blockNameThird {
+  justify-content: center;
 }
 
 .blocks1 {
@@ -252,4 +252,74 @@ span {
 
 .buttonThird {
   margin: 5vh 41 0 85%;
+}
+
+.fourSection {
+  width: 100%;
+  padding-left: 121px;
+}
+
+.blockNameFour {
+  justify-content: center;
+}
+
+.contentFour {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.email {
+  margin-top: 117px;
+}
+
+.phone {
+  margin-top: 67px;
+}
+
+.iconsFour {
+  margin: 69px 0;
+}
+
+.iconsFour > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.iconsFour ul > li {
+  margin-right: 10px;
+}
+
+.footer {
+  width: 100%;
+  border-top: 2px solid #ffa800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 76px 122px 93px 122px;
+}
+.footer nav {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.footer nav a {
+  margin-right: 80px;
+}
+.footer nav a:last-child {
+  margin-right: 0;
+}
+
+.footerNamePerson {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.boxFooterBTN {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=index.css.map */
