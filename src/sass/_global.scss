@@ -115,3 +115,18 @@ h2 {
   font-weight: 400;
   line-height: normal;
 }
+
+.ellips {
+  width: 765px;
+  height: 716px;
+  flex-shrink: 0;
+  position: absolute;
+  border-radius: 765px;
+  background: linear-gradient(
+    147deg,
+    rgba(255, 70, 0, 0.59) -65.15%,
+    rgba(244, 205, 65, 0.55) 94.34%,
+    rgba(244, 205, 65, 0) 100.56%
+  );
+  filter: blur(250px);
+}
