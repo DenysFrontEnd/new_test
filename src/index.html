@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./sass/index.scss" />
 
     <title>My site</title>
@@ -11,19 +15,22 @@
   </head>
   <body>
     <include src="sections/header.html"></include>
+
     <main>
       <include src="sections/hero.html"></include>
+
+      <include src="sections/about.html"></include>
+
+      <include src="sections/portfolio.html"></include>
+
+      <include src="sections/contacts.html"></include>
     </main>
-
-    <include src="sections/about.html"></include>
-
-    <include src="sections/portfolio.html"></include>
-
-    <include src="sections/contacts.html"></include>
 
     <include src="sections/footer.html"></include>
 
     <!-- <include src="sections/modal.html"></include> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./index.js"></script>
   </body>
 </html>

@@ -1,6 +1,7 @@
 .portfolioBlock {
   display: flex;
   position: relative;
+  justify-content: space-evenly;
 }
 
 .blockNameThird {
@@ -33,7 +34,21 @@ span {
 }
 
 .buttonThird {
-  margin: 5vh 41 0 85%;
+  margin: 5vh 41 50px 85%;
   //width: 460px;
   //height: 106px;
 }
+
+/* .swiperContain {
+    width: 500px;
+    height: 500px;
+  }
+
+  .swiper {
+    position: relative;
+    overflow: hidden;
+  }
+  .swiper-scrollbar {
+    background-color: red;
+  }
+ */
